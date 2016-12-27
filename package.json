@@ -1,0 +1,46 @@
+{
+  "name": "incremental-id-generator",
+  "version": "0.0.0",
+  "description": "Generates incremental string IDs",
+  "main": "incremental-id-generator.js",
+  "files": [
+    "incremental-id-generator.js"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwoltman/node-incremental-id-generator.git"
+  },
+  "keywords": [
+    "incremental",
+    "id",
+    "uid",
+    "generator",
+    "custom",
+    "alphabet",
+    "base",
+    "encoding"
+  ],
+  "author": "Nathan Woltman <nwoltman@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwoltman/node-incremental-id-generator/issues"
+  },
+  "homepage": "https://github.com/nwoltman/node-incremental-id-generator",
+  "devDependencies": {
+    "coveralls": "^2.11.15",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.2",
+    "istanbul": "^0.4.5",
+    "jit-grunt": "^0.10.0",
+    "mocha": "^3.2.0",
+    "should": "^11.1.2"
+  }
+}

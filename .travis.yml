@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - '4'
+  - '6'
+  - '7'
+deploy:
+  provider: npm
+  email: nwoltman@outlook.com
+  on:
+    tags: true
+  api_key:
+    secure: rVtUAx2L1NYKvFVJTbEPdJc9Gb8QeGOGX5IUmv8ORxrp0UgQU7mNXNB/EqFY/NNaBnhpVd4sYn5vx9mAZmr37vAUcztzVasI6GdyBp6tQSASLKhZhklqXDchxfaPRY1idwFJgbq9OU/Cw4uiuEk8E4UW9kU2T4LAEx6lQ7+nSSTHJx0UlWfC9c1TOnX9Nc+Mvm4WeVM98kk9mi5cFl/CG1YKtE6mWPB0u7rQFcTuYqVIPpOiXDNHWOEpvB0DGQTCTKuCOMawpqD5UN0vMpvVJZlCCgPHuj5FSxbd7icLOyN70EWzdXuaIVkLg8a5QLLAW9BuGaAfZBSUS4j59QE5S6fhCQzH9xFG8XoaA56Mfcfo9Uq8ZdD2ifuFZtoBmdlXj02dxSZ6nTNUJKNcizNPl5luv/RPK+QqlHEOqR590n2GkibIT+IWcF0sP8gd7djGh+XDj8X6xeZowljiwp3rSZKXcnskjM237jx3FKBQ6exsOKTpGvAuqyxmjfBHDiqdrPgMPt4MLJudmwqnBkjQkCfDqJQJOuf/1HKUF0onEyuAja9r4/h3C3u/bun7f7iD688o5CTXfl/I+21vktMWCJNjiTL6NvhToy6qRy/in+A/ELACAMV69niY5lEuaWAvhOQURD6Rh+deKffTPU7EqbUmVT45vxZH7QFYWX6pwt4=
