@@ -1,6 +1,6 @@
 {
   "name": "incremental-id-generator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generates incremental string IDs",
   "main": "incremental-id-generator.js",
   "files": [
