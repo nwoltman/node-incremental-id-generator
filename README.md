@@ -11,7 +11,11 @@ Generates incremental string IDs.
 ## Installation
 
 ```sh
+# npm
 npm install incremental-id-generator --save-dev
+
+# yarn
+yarn add incremental-id-generator --dev
 ```
 
 
